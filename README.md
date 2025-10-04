@@ -1,1 +1,2 @@
 # Intro-to-Python-Course-Notes
+These are the session notes from replit for the "Intro to Programming for Complete Beginners (Python)" course! They are originally from replit but have been copied over to here so that those using VS code or online python are able to access them. Just open the "session notes" folder to see a python file for each session, and click on the file to see a guided walkthrough of the concepts (the code is explained with comments, which are either single-line (#) or multi-line ('''''')). 
