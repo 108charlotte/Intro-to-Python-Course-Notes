@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((screen_w, screen_h))
 
 pygame.display.set_caption("Adding Sprites")
 character = pygame.image.load("C:\\Users\\dawoo\\Downloads\\kenney_pixel-platformer-food-expansion\\Tiles\\tile_0103.png")
-dimensions = block_img.get_rect()
+dimensions = character.get_rect()
 
 block_h = dimensions.height
 
@@ -23,7 +23,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     
-    screen.blit(block_img, dimensions)
+    screen.blit(character, dimensions)
         
     screen.fill((255, 255, 255))
     
